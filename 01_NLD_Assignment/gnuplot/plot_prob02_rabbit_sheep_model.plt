@@ -2,7 +2,7 @@ set term pdfcairo size 6in,6in enhanced font 'CMU Serif,16'
 set output 'plots/prob02_rabbit_sheep_model.pdf'
 
 set title "Phase Portrait (Rabbit and Sheep Model)" font 'CMU Serif,18'
-set xlabel "Rabbits"
+set xlabel "Rabbit"
 set ylabel "Sheep"
 set xrange [0:3]
 set yrange [0:3]
@@ -25,9 +25,9 @@ dy(x,y) = y*(2.0 - x - y)
 
 vlen(x,y) = sqrt(dx(x,y)**2 + dy(x,y)**2)
 vlen_safe(x,y) = vlen(x,y) == 0.0 ? 1.0 : vlen(x,y)
-scale = 0.08
+scale = 0.08 
 
-$StablePoints << EO2
+$StablePoints << EOD
 3 0
 0 2
 EOD
@@ -43,5 +43,5 @@ plot \
     f(x) title "Rabbit nullcline" w l dt 3 lw 2 lc "black", \
     g(x) title "Sheep nullcline" w l dt 2 lw 2 lc "black", \
     'data/prob02_rabbit_sheep.dat' using 2:3 notitle w l lw 2 lc "web-blue", \
-    $StablePoints using 1:2 title "Stable equilibrium" with points pointtype 7 pointsize 1.2 linecolor "black", \
-    $UnstablePoints using 1:2 title "Unstable equilibrium" with points pointtype 6 pointsize 1.2 linecolor "black" linewidth 2
+    $StablePoints using 1:2 title "Stable equilibrium" with points pointtype 7 pointsize 1.5 linecolor "black", \
+    $UnstablePoints using 1:2 title "Unstable equilibrium" with points pointtype 6 pointsize 1.5 linecolor "black" linewidth 2

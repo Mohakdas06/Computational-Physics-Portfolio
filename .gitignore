@@ -8,3 +8,6 @@ output/
 *.zip
 *.pdf
 *.png
+*.obj
+*.mod
+*.out
