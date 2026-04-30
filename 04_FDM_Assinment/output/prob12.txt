@@ -1,0 +1,15 @@
+------------------------------------------------
+Problem 12: Double Well potential
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 2.971575787
+n =  1    E = 2.971575787
+n =  2    E = 8.796253494
+n =  3    E = 8.796253494
+n =  4    E = 14.43020712
+Tunneling Splitting (Delta E): 0.1456434973E-10
+ Wavefunctions written to prob12.dat

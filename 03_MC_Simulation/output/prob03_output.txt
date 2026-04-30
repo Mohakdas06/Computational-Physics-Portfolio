@@ -1,0 +1,4 @@
+Function: f1(x) = x^2 and f2(x) = x
+-----------------------------------------
+Monte-Carlo estimation: 0.173800
+Exact result: 0.166667

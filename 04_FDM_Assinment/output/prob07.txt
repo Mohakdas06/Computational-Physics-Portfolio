@@ -1,0 +1,14 @@
+--------------------------------------------
+Problem 7: |x^3| potential
+--------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+--------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.6748926574
+n =  1    E = 2.276514372
+n =  2    E = 4.202801600
+n =  3    E = 6.282174284
+n =  4    E = 8.491132914
+ Wavefunctions written to prob07.dat

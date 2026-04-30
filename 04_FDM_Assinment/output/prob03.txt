@@ -1,0 +1,14 @@
+----------------------------------------------
+Problem 3: Harmonic Oscillator
+----------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.4999992188
+n =  1    E = 1.499996097
+n =  2    E = 2.499989926
+n =  3    E = 3.499981665
+n =  4    E = 4.499980359
+ Wavefunctions written to prob03.dat

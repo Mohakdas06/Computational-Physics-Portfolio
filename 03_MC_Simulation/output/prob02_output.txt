@@ -1,0 +1,4 @@
+Function: f(x) = sin(x)
+-----------------------------------------
+Monte-Carlo estimation: 1.97292
+Exact result: 2.00000

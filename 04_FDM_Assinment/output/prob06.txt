@@ -1,0 +1,14 @@
+------------------------------------------
+Problem 6: |x| potential
+------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.8086093897
+n =  1    E = 1.855751457
+n =  2    E = 2.578083378
+n =  3    E = 3.244590636
+n =  4    E = 3.825694142
+ Wavefunctions written to prob06.dat

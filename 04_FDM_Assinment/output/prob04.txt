@@ -1,0 +1,14 @@
+----------------------------------------------
+Problem 4: Finite Square Well Potential
+----------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 1.114565745
+n =  1    E = 4.457032909
+n =  2    E = 10.02362457
+n =  3    E = 17.80774059
+n =  4    E = 27.79943716
+ Wavefunctions written to prob04.dat

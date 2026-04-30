@@ -2,12 +2,9 @@ build/
 bin/
 obj/
 data/
-output/
 
 *.log
 *.zip
-*.pdf
-*.png
 *.obj
 *.mod
 *.out

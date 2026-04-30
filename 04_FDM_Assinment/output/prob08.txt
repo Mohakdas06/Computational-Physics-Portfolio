@@ -1,0 +1,14 @@
+------------------------------------------------
+Problem 8: Quartic (x^4) Potential
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.6679847582
+n =  1    E = 2.393633241
+n =  2    E = 4.696758949
+n =  3    E = 7.335644461
+n =  4    E = 10.24414436
+ Wavefunctions written to prob08.dat

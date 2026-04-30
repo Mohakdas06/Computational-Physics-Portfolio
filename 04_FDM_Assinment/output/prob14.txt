@@ -1,0 +1,12 @@
+------------------------------------------------
+Problem 14: Dirac Delta potential
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = -12.49718876
+n =  1    E = 0.1369386987
+n =  2    E = 0.1465057862
+ Wavefunctions written to prob14.dat

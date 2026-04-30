@@ -1,0 +1,14 @@
+------------------------------------------------
+Problem 2: Half Harmonic Oscillator
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  1    E = 1.499996102
+n =  2    E = 3.499980508
+n =  3    E = 5.499952439
+n =  4    E = 7.499911894
+n =  5    E = 9.499858874
+ Wavefunctions written to prob02.dat

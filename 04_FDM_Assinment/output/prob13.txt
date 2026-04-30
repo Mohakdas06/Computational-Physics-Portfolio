@@ -1,0 +1,14 @@
+--------------------------------------------
+Problem 13: Morse potential
+--------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+--------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.1759479931
+n =  1    E = 0.5035415172
+n =  2    E = 0.7987316204
+n =  3    E = 1.061521094
+n =  4    E = 1.291912169
+ Wavefunctions written to prob13.dat

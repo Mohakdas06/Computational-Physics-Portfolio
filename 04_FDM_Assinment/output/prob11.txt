@@ -1,0 +1,14 @@
+--------------------------------------------
+Problem 11: Half Quartic potential
+--------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+--------------------------------------------
+The first five eigen energies: 
+ 
+n =  1    E = 2.393641328
+n =  2    E = 7.335708655
+n =  3    E = 13.37926730
+n =  4    E = 20.22069255
+n =  5    E = 27.70609988
+Wavefunctions written to prob11.dat

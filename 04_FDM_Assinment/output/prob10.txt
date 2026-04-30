@@ -1,0 +1,14 @@
+------------------------------------------------
+Problem 10: Half-cubic Potential
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  1    E = 2.276520384
+n =  2    E = 6.282214306
+n =  3    E = 10.79971970
+n =  4    E = 15.66608800
+n =  5    E = 20.80242178
+Wavefunctions written to prob10.dat

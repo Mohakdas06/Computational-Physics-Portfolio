@@ -1,0 +1,14 @@
+------------------------------------------------------
+Problem 1: Infinite Potential Well With Slanted Base
+------------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------------
+The first five eigen energies: 
+ 
+n =  1    E = 63.46596852
+n =  2    E = 110.9662942
+n =  3    E = 150.0406729
+n =  4    E = 187.0863589
+n =  5    E = 229.7193690
+ Wavefunctions written to prob01.dat

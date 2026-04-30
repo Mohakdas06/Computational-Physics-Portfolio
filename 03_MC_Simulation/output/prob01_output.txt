@@ -1,0 +1,4 @@
+Function: f(x) = x^2
+-----------------------------------------
+Monte-Carlo estimation: 0.334000
+Exact result: 0.333333

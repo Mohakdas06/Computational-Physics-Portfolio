@@ -1,0 +1,14 @@
+-------------------------------------------------------
+Problem 5: Infinite Potential Well With Parabolic Base
+-------------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+-------------------------------------------------------
+The first five eigen energies: 
+ 
+n =  1    E = 299.9750477
+n =  2    E = 699.8752270
+n =  3    E = 1099.695524
+n =  4    E = 1499.435915
+n =  5    E = 1899.096376
+Wavefunctions written to prob05.dat

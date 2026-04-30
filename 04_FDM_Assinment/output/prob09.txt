@@ -1,0 +1,14 @@
+------------------------------------------------
+Problem 9: Quadratic-quartic potential
+------------------------------------------------
+Unit used: m = 1.0,  h_bar = 1.0
+Method: Finite Difference Method
+------------------------------------------------
+The first five eigen energies: 
+ 
+n =  0    E = 0.9262562307
+n =  1    E = 3.057931421
+n =  2    E = 5.639704502
+n =  3    E = 8.526634317
+n =  4    E = 11.66020884
+ Wavefunctions written to prob09.dat

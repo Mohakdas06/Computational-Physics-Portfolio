@@ -1,0 +1,4 @@
+Function: f(x) = (1 - x^2)^0.5
+-----------------------------------------
+Monte-Carlo estimation: 0.786600
+Estimated value of pi: 3.146400000
