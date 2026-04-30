@@ -61,10 +61,5 @@ make -f Makefile.plots
                               Monte carlo mean-value method (1D, 2D)
 
 ## Report
-- Monte_Carlo_Assignment.pdf  — Full report with derivations, results, and comparison with analytical values
+- Monte_Carlo_Assignment.pdf  — Full report with derivations, results, and comparison with analytical values [[Download Full Report (PDF)](./Monte_Carlo_Assignment.pdf)]
 - Monte_Carlo_Assignment.tex  — LaTeX source
-
-## Author
-Mohak Das
-Jadavpur University, 2026
-Statistical Mechanics

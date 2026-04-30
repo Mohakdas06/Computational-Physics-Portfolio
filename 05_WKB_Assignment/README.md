@@ -57,10 +57,5 @@ make -f Makefile.plots
 
 ## Report
 - WKB_Assignment.pdf  — Full report with derivations, results,
-                        and comparison with analytical values
+                        and comparison with analytical values [[Download Full Report (PDF)](./WKB_Assignment.pdf)]
 - WKB_Assignment.tex  — LaTeX source
-
-## Author
-Mohak Das
-Jadavpur University, 2026
-Quantum Mechanics

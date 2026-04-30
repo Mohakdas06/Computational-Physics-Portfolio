@@ -14,11 +14,13 @@ This repository collects all assignments from a dedicated **Computational Physic
 - **Plotting scripts** (Python or Gnuplot) for visualization.
 
 The assignments span five domains:
-1.  **Nonlinear Dynamics**
-2.  **Molecular Dynamics**
-3.  **Monte Carlo Methods**
-4.  **Finite Difference Methods (FDM)**
-5.  **WKB Approximation**
+| # | Assignment | Link |
+| :--- | :--- | :--- |
+|1.  |**Nonlinear Dynamics**  | [View Details](./01_NLD_Assignment/)|
+|2.  |**Molecular Dynamics**  | [View Details](./02_MD_Simulation/)|
+|3.  |**Monte Carlo Methods** | [View Details](./03_MC_Simulation/)|
+|4.  |**Finite Difference Methods (FDM)** | [View Details](./04_FDM_Assinment/)|
+|5.  |**WKB Approximation**   | [View Details](./05_WKB_Assignment/)|
 
 ### 🔭 Cosmological Relevance
 While these are course assignments, the numerical methods implemented here are directly transferable to **cosmological research**:
@@ -40,19 +42,19 @@ To run any simulation locally:
 
 2.  **Navigate to an assignment:**
     ```bash
-    cd MD_Simulation  # Example: Molecular Dynamics
+    cd MD_Simulation        # Example: Molecular Dynamics
     ```
 
 3.  **Compile and Run:**
     ```bash
     make clean
     make
-    ./main  # Or the specific executable name
+    ./bin/main          # Or the specific executable name
     ```
 
 4.  **Generate Plots:**
     ```bash
-    make -f Makefile.plots  # Runs gnuplot/python scripts
+    make -f Makefile.plots          # Runs gnuplot/python scripts
     ```
 
 *Note: Requires `gfortran` (≥ 9.0), `gnuplot` (≥ 5.4), and optionally `python3` (≥ 3.8).*

@@ -55,10 +55,5 @@ gnuplot gnuplot/final.plt
 - Final configuration   : [e.g. equilibrated liquid/gas phase]
 
 ## Report
-- MD_Simulation.pdf  — Full report: theory, implementation, results
+- MD_Simulation.pdf  — Full report: theory, implementation, results [[Download Full Report (PDF)](./MD_Simulation.pdf)]
 - MD_Simulation.tex  — LaTeX source
-
-## Author
-Mohak Das
-Jadavpur University, 2026
-Statistical Mechanics

@@ -62,10 +62,5 @@ make -f Makefile.plots
 
 ## Report
 - FDM_Assignment.pdf  — Full report with derivations, results,
-                      and comparison with analytical values
+                      and comparison with analytical values [[Download Full Report (PDF)](./FDM_Assignment.pdf)]
 - FDM_Assignment.tex  — LaTeX source
-
-## Author
-Mohak Das
-Jadavpur University, 2026
-Quantum Mechanics

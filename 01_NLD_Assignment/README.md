@@ -60,10 +60,5 @@ All systems are integrated using the shared RK5 module (src/shared/RK5_solver.f9
 
 ## Report
 - NLD_Assignment.pdf  — Full report: phase portraits, attractor plots,
-                      fixed-point analysis, and physical interpretation
+                      fixed-point analysis, and physical interpretation [[Download Full Report (PDF)](./NLD_Assignment.pdf)]
 - NLD_Assignment.tex  — LaTeX source
-
-## Author
-Mohak Das
-Jadavpur University, 2026
-Classical Mechanics
