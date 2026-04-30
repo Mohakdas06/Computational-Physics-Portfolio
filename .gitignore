@@ -1,0 +1,10 @@
+build/
+bin/
+obj/
+data/
+output/
+
+*.log
+*.zip
+*.pdf
+*.png

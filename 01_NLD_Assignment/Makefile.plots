@@ -1,0 +1,43 @@
+# Directories (Must match your main Makefile)
+BIN_DIR = bin
+SRC_PROB = src/problems
+GNUPLOT_DIR = gnuplot
+PLOT_DIR = plots
+OUT_DIR = data
+
+# 1. Find all available source files to determine what targets we have
+SRCS = $(wildcard $(SRC_PROB)/prob*.f90)
+
+# 2. Create list of plot tasks (e.g., plot_prob01_simple_pendulum)
+# This basically says: "For every file in src/problems, there is a plot task"
+PLOT_TASKS = $(patsubst $(SRC_PROB)/%.f90, plot_%, $(SRCS))
+
+# --- TARGETS ---
+
+# Default: Run all plots
+all: dirs $(PLOT_TASKS)
+
+# Helper directories
+dirs:
+	mkdir -p $(OUT_DIR) $(PLOT_DIR) $(GNUPLOT_DIR)
+
+# --- EXECUTION RULES ---
+
+# Rule: plot_probXX depends on run_probXX
+plot_%: run_% dirs
+	@echo "--------------------------------------"
+	@echo "Plotting $* with GNUPlot..."
+	gnuplot $(GNUPLOT_DIR)/plot_$*.plt
+	@echo "Success! Saved plot to $(PLOT_DIR)/$*.png"
+
+# Rule: run_probXX depends on the executable existing in bin/
+# Note: This does NOT compile. It just checks if bin/probXX exists.
+run_%:
+	@if [ ! -f $(BIN_DIR)/$* ]; then \
+		echo "Error: $(BIN_DIR)/$* not found. Run 'make' first!"; \
+		exit 1; \
+	fi
+	@echo "Running simulation $*..."
+	./$(BIN_DIR)/$*
+
+.PHONY: all dirs
